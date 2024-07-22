@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Calculator Mars</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="calculator">
+            <input type="text" id="display" readonly>
+            <div id="keys">
+                <button onclick="clearToDisplay()" class="clear">C</button>
+                <button onclick="clickToDisplay('/')" class="operator">/</button>
+                <button onclick="clickToDisplay('*')" class="operator">X</button>
+                <button onclick="delToDisplay()" class="del">DEL</button>
+                <button onclick="clickToDisplay('7')">7</button>
+                <button onclick="clickToDisplay('8')">8</button>
+                <button onclick="clickToDisplay('9')">9</button>
+                <button onclick="clickToDisplay('-')" class="operator">-</button>
+                <button onclick="clickToDisplay('4')">4</button>
+                <button onclick="clickToDisplay('5')">5</button>
+                <button onclick="clickToDisplay('6')">6</button>
+                <button onclick="clickToDisplay('+')" class="operator">+</button>
+                <button onclick="clickToDisplay('1')">1</button>
+                <button onclick="clickToDisplay('2')">2</button>
+                <button onclick="clickToDisplay('3')">3</button>
+                <button onclick="clickToDisplay('%')">%</button>
+                <button onclick="clickToDisplay('00')">00</button>
+                <button onclick="clickToDisplay('0')">0</button>
+                <button onclick="clickToDisplay('.')">.</button>
+                <button onclick="typeToDisplay()" class="type">=</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
